@@ -4,10 +4,7 @@
  */
 package it20_villarosa;
 
-/**
- *
- * @author Adrian M. Villarosa
- */
+
 public class IT20_Villarosa {
 
     /**
