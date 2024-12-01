@@ -1,0 +1,33 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package topic_5_recursion;
+
+import java.util.Scanner;
+
+public class Fibonacci {
+
+    
+    public int fibonacci(int n) {
+        if (n == 0) return 0;  
+        if (n == 1) return 1;  
+
+        return fibonacci(n - 1) + fibonacci(n - 2);  
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Fibonacci calculator = new Fibonacci();
+
+        
+        System.out.print("Enter a number to calculate its Fibonacci number: ");
+        int number = scanner.nextInt();
+
+        int result = calculator.fibonacci(number);
+        System.out.println("Fibonacci number at position " + number + " is: " + result);
+
+        scanner.close();
+    }
+}
+
