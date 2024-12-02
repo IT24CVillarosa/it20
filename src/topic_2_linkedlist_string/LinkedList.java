@@ -1,7 +1,5 @@
 package topic_2_linkedlist_string;
 
-import topic_2_linkedlist_string.Node;
-
 public class LinkedList {
 	private Node head; 
 
